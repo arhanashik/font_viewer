@@ -123,7 +123,7 @@ while start_process:
                     line += '*'
             print(line)
         
-    again = input ("もう一度検索する(1) ")
+    again = input ("もう一度検索する([Y]es/[N]o) ")
     
-    if again != '1':
+    if again == 'N':
         break
